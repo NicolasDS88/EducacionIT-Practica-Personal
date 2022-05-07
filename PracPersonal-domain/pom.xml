@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>EducacionIT-Practica-Personal</groupId>
+		<artifactId>EducacionIT-Practica-Personal</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>PracPersonal-domain</artifactId>
+	<name>Domain classes product-Order-Customer-Workers</name>
+	
+	<description>class that models something in the problem domain, as opposed to a class that 
+	exists for technical implementation reasons. Domain model instances often need to be persisted 
+	in a database, and in Java, they typically conform to the Java Beans specification, i.e. they 
+	have get and set methods to represent individual properties and a parameterless constructor. 
+	Spring and other frameworks allow you to access these properties directly in your JSPs.
+	For example, in a shop application, some of your domain model classes would 
+	be Product, Order, ShoppingCart and Customer.
+	
+	https://en.wikipedia.org/wiki/Domain_model
+	
+	</description>
+</project>

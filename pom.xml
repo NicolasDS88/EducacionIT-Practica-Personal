@@ -1,12 +1,25 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>EducacionIT-Practica-Personal</groupId>
-  <artifactId>EducacionIT-Practica-Personal</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>Practica Personal con JAVA y MySQL</name>
-  <description>Practica Personal con JAVA y MySQL</description>
-  <modules>
-  	<module>MainTestArean</module>
-  </modules>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>EducacionIT-Practica-Personal</groupId>
+	<artifactId>EducacionIT-Practica-Personal</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Practica Personal con JAVA y MySQL</name>
+	<description>Practica Personal con JAVA y MySQL</description>
+
+	<!-- defino variable -->
+	<properties>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+	</properties>
+
+	<!--Modulos-->
+	<modules>
+		<module>MainTestArean</module>
+		<module>PracPersonal-domain</module>
+	</modules>
+
+
 </project>

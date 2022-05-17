@@ -19,6 +19,8 @@
 	<modules>
 		<module>MainTestArean</module>
 		<module>PracPersonal-domain</module>
+		<module>PracPersonal-DAO</module>
+		<module>PracPersonal-services</module>
 	</modules>
 
 
